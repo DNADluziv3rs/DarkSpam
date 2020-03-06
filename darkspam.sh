@@ -1,4 +1,4 @@
-#!/system/bin/bash
+#!/system/bin/sh
 
 clear
 
@@ -88,111 +88,111 @@ echo "Installing..."
 sleep 2
 cd tool
 bash spam-sms.sh
-if [$pilih = "2" ]:
+elif [$pilih = "2" ]:
 then
 cd tool
 bash spam-xl.sh
 
-if [ $pilih = "3" ]:
+elif [ $pilih = "3" ]:
 then
 cd tool
 bash tokotalk.sh
 
-if [ $pilih = "4" ]:
+elif [ $pilih = "4" ]:
 then
 cd tool
 bash wa.sh
 
-if [ $pilih = "5" ]:
+elif [ $pilih = "5" ]:
 then
 cd tool
 bash gmail.sh
 
-if [ $pilih = "6" ]:
+elif [ $pilih = "6" ]:
 then
 cd tool
 bash sms-call.sh
 
-if [ $pilih = "7" ]:
+elif [ $pilih = "7" ]:
 then
 cd tool
 bash spam.sh
 
-if [ $pilih = "8" ]:
+elif [ $pilih = "8" ]:
 then
 cd tool
 bash klikdokter.sh
 
-if [ $pilih = "9" ]:
+elif [ $pilih = "9" ]:
 then
 cd tool
 bash spam.sh
 
-if [ $pilih = "10" ]:
+elif [ $pilih = "10" ]:
 then
 cd tool
 bash pomona.sh
 
-if [ $pilih = "11" ]:
+elif [ $pilih = "11" ]:
 then
 cd tool
 bash prosehat.sh
 
-if [ $pilih = "12" ]:
+elif [ $pilih = "12" ]:
 then
 cd tool
 bash sepulsa.sh
 
-if [ $pilih = "13" ]:
+elif [ $pilih = "13" ]:
 then
 cd tool
 bash shopback.sh
 
-if [ $pilih = "14" ]:
+elif [ $pilih = "14" ]:
 then
 cd tool
 bash global.sh
 
-if [ $pilih = "15" ]:
+elif [ $pilih = "15" ]:
 then
 cd tool
 bash spam.sh
 
-if [ $pilih = "16" ]:
+elif [ $pilih = "16" ]:
 then
 cd tool
 bash spam.sh
 
-if [ $pilih = "17" ]:
+elif [ $pilih = "17" ]:
 then
 cd tool
 bash sms.sh
 
-if [ $pilih = "18" ]:
+elif [ $pilih = "18" ]:
 then
 cd tool
 bash olx.sh
 
-if [ $pilih = "19" ]:
+elif [ $pilih = "19" ]:
 then
 cd tool
 bash redbus.sh
 
-if [ $pilih = "20" ]:
+elif [ $pilih = "20" ]:
 then
 cd tool
 bash indomaret.sh
 
-if [ $pilih = "21" ]:
+elif [ $pilih = "21" ]:
 then
 cd tool
 bash oyo.sh
 
-if [ $pilih = "99" ]:
+elif [ $pilih = "99" ]:
 then
 sh install.sh
 
-if [ $pilih = "00" ]:
+elif [ $pilih = "00" ]:
 then
 sleep 1
 echo "\033[032mTerimakasih Sudang Pakai Tools Ini"
