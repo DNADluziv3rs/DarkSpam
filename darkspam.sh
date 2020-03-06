@@ -116,6 +116,7 @@ bash sms-call.sh
 elif [ $pilih = "7" ]:
 then
 cd tool
+cd wa
 bash spam.sh
 
 elif [ $pilih = "8" ]:
@@ -126,6 +127,7 @@ bash klikdokter.sh
 elif [ $pilih = "9" ]:
 then
 cd tool
+cd rupa
 bash spam.sh
 
 elif [ $pilih = "10" ]:
@@ -156,11 +158,13 @@ bash global.sh
 elif [ $pilih = "15" ]:
 then
 cd tool
+cd mypoin
 bash spam.sh
 
 elif [ $pilih = "16" ]:
 then
 cd tool
+cd vgsms
 bash spam.sh
 
 elif [ $pilih = "17" ]:
