@@ -18,8 +18,8 @@ echo "!!:  !!!  !!:  !!!  !!: :!!   !!: :!!      "
 echo ":!:  !:!  :!:  !:!  :!:  !:!  :!:  !:!     "
 echo " :::: ::  ::   :::  ::   :::   ::  :::     "
 echo ":: :  :    :   : :   :   : :   :   :::     "
-echo "                                         \033[032mAuthor\033[031m:\033[037mTheXManz"                                           
-echo "                                        \033[032mYoutub3\033[031m:\033[037mApmz channel"                                           
+echo "                                         \033[032mAuthor\033[031m:\033[037mDNADluziv3rs"                                           
+echo "                                        \033[032mYoutub3\033[031m:\033[037mDNAD Official"                                           
 echo "\033[036m @@@@@@   @@@@@@@    @@@@@@   @@@@@@@@@@ "  
 echo "@@@@@@@   @@@@@@@@  @@@@@@@@  @@@@@@@@@@@  "
 echo "!@@       @@!  @@@  @@!  @@@  @@! @@! @@!  "
@@ -81,7 +81,7 @@ sleep 1
 echo "\033[032m[\033[037m00\033[032m]\033[037m.\033[036mExit"
 sleep 1
 echo "\033[033m"
-read -p "@pilih nomor $:" pilih;
+read -p "[ Pilih nomor :" pilih;
 if [ $pilih = "1" ]:
 then
 echo "Installing..."
@@ -203,9 +203,9 @@ echo "\033[032mTerimakasih Sudang Pakai Tools Ini"
 sleep 2
 echo "mohon luangkan waktu anda untuk sedikit membantu membangun channel saya"
 sleep 2
-echo "Subscribe Youtube Apmz Channel"
+echo "Subscribe Youtube DNAD OFFICIAL"
 sleep 2
-termux-open "https://www.youtube.com/channel/UCS4EpzW-9kWTIt3Dmzb4oQQ"
+termux-open "https://www.youtube.com/c/dnadofficial"
 sleep 3
 echo "bye Tod*_"
 sleep 2
